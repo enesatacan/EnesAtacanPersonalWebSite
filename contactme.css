@@ -1,0 +1,121 @@
+html{
+    scroll-behavior: smooth;
+    transition: .9s;
+}
+body{
+    margin: 0px;
+    background-color: #f2f2f2;
+    font-family: 'Oswald', sans-serif;
+}
+header{ 
+    padding: 50px 70px;
+    background-color: #000;
+    width: 100vw;
+    position: fixed;
+    z-index: 1;
+}
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+}
+header a {
+    color:  #f2f2f2    ;
+    text-decoration: none;
+    font-size: 16px;
+}
+.navigations{
+    display: inline-block;
+    width: calc(100vw - 280px);
+    text-align: right;
+}
+.navigation{
+    padding: 20px 0px 20px 40px;
+    font-size: 16px;
+}
+.navigation:hover{
+    font-size: 18px;
+    padding: 20px 0px 20px 40px;
+    transition: .6s;
+}
+.contactmeform{
+    position: absolute;
+    left: 20%;
+    top: 30%;
+    transform: translate(20% - 30%);
+    width: 60vw;
+    height: 100vh;
+    border: 5px #000 double;
+    padding: 20px;
+    text-align: center;
+    background: url(img/contactbg.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10%;
+    color: #f2f2f2;
+    font-size: 30px;
+    
+    
+    
+    }
+    .in-form label,input{
+        display: flex;
+        margin-left:20% ;
+        width: 30vw;
+        padding: 20px;
+        border-radius: 10px;
+        
+    }
+    .in-form input{
+        background-color: rgba(255, 255, 255, 0.822);
+        padding: 40px;
+        color: #000;
+        
+    }
+    
+    .in-form input:hover{
+        background-color: rgba(255, 255, 255, 0.822);
+        padding: 40px;
+        color: #000;
+        transition: .6s;
+    }
+    button{
+        margin-top:70px ;
+        padding: 20px;
+        font-size: 20px;
+        border-radius: 40px;
+        background-color: #f2f2f2;
+        color: #000;
+        cursor: pointer
+        
+    }
+    button:hover{
+        margin-top:70px ;
+        padding: 20px;
+        font-size: 20px;
+        border-radius: 40px;
+        background-color: #000;
+        color: #f2f2f2;
+        transition: .6s ;
+    }
+    button:not(:hover){
+        transition: .6s ;
+    }
+    div nav{
+        padding: 50px ;
+        
+    }
+    div nav a{
+        padding: 50px 10px;
+        color: #f2f2f2;
+        font-size: 25px;
+    }
+    div nav a:hover{
+        padding: 50px 10px;
+        color: #f2f2f2;
+        font-size: 30px;
+        transition: .2s;
+    }
+    div nav a:not(:hover){
+        transition: .2s;
+
+    }

@@ -1,0 +1,82 @@
+html{
+    scroll-behavior: smooth;
+    transition: .9s;
+}
+body{
+    margin: 0px;
+    background-color: #f2f2f2;
+    font-family: 'Oswald', sans-serif;
+}
+header{ 
+    margin-top: 0px;
+    padding: 50px 70px;
+    background-color: #000;
+    width: 100vw;
+    
+}
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+}
+header a {
+    color:  #f2f2f2    ;
+    text-decoration: none;
+    font-size: 16px;
+}
+.navigations{
+    display: inline-block;
+    width: calc(100vw - 280px);
+    text-align: right;
+}
+.navigation{
+    padding: 20px 0px 20px 40px;
+    font-size: 16px;
+}
+.navigation:hover{
+    font-size: 18px;
+    padding: 20px 0px 20px 40px;
+    transition: .6s;
+}
+.navigation:not(:hover){
+    
+    transition: .6s;
+}
+#title{
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    border: 1px #000 dotted;
+}
+#uiux{
+    width: 40px;
+}
+.main-container{
+    text-align: center;
+    
+}
+.main-container-text{
+width: 30%;   
+display: inline-block;
+border: 1px solid #000; 
+margin-top: 50px;
+margin-bottom: 50px;
+padding: 50px;
+border-radius: 20px;
+background-color: #000;
+color: #f2f2f2;
+}
+.main-container-text:hover{
+width: 30%;   
+display: inline-block;
+border: 1px solid #000; 
+margin-top: 50px;
+padding: 60px;
+border-radius: 20px;
+background-color: #fff;
+color: #000;
+transition: .6s;
+}
+.main-container-text:not(:hover){
+    transition: .6s;
+
+}
